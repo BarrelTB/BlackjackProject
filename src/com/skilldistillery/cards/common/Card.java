@@ -1,5 +1,7 @@
 package com.skilldistillery.cards.common;
 
+import java.util.List;
+
 public class Card {
 	
 	private Suit suit;
@@ -47,6 +49,12 @@ public class Card {
 	@Override
 	public String toString() {
 		return rank + " of " + suit;
+	}
+	
+	public void displayHand(List<Card> hand) {
+		for(Card card : hand) {
+			System.out.println(card.toString());
+		}
 	}
 	
 	
