@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.skilldistillery.cards.common.Card;
 
-public class Player{
+public class Player {
 
 	private BlackJackHand hand;
 	private String name;
@@ -22,20 +22,19 @@ public class Player{
 	public String toString() {
 		return name + " hand value " + hand.getHandValue();
 	}
-	
+
 	public int getHandTotal() {
 		return hand.getHandValue();
 	}
-	
+
 	public void displayCards() {
 		System.out.println("Player has: ");
 		for (Card card : hand.getHand()) {
 			System.out.println(card);
 		}
 		System.out.println();
-		
+
 	}
-	
 
 	public String getName() {
 		return name;
@@ -44,6 +43,5 @@ public class Player{
 	public void setName(String name) {
 		this.name = name;
 	}
-	
 
 }

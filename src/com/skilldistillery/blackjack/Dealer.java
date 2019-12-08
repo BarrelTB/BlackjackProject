@@ -45,6 +45,7 @@ public class Dealer {
 	public Card dealCard() {
 		return this.deck.dealCard();
 	}
+
 	public int checkDeckSize() {
 		return this.deck.checkDeckSize();
 	}

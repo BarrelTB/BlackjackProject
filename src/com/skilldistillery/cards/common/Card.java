@@ -3,17 +3,15 @@ package com.skilldistillery.cards.common;
 import java.util.List;
 
 public class Card {
-	
+
 	private Suit suit;
 	private Rank rank;
-	
-	
+
 	public Card(Suit suit, Rank rank) {
 		super();
 		this.suit = suit;
 		this.rank = rank;
 	}
-
 
 	@Override
 	public int hashCode() {
@@ -23,7 +21,6 @@ public class Card {
 		result = prime * result + ((suit == null) ? 0 : suit.hashCode());
 		return result;
 	}
-
 
 	@Override
 	public boolean equals(Object obj) {
@@ -40,23 +37,20 @@ public class Card {
 			return false;
 		return true;
 	}
-	
+
 	public int getValue() {
 		return rank.getValue();
 	}
-
 
 	@Override
 	public String toString() {
 		return rank + " of " + suit;
 	}
-	
+
 	public void displayHand(List<Card> hand) {
-		for(Card card : hand) {
+		for (Card card : hand) {
 			System.out.println(card.toString());
 		}
 	}
-	
-	
 
 }
