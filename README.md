@@ -2,7 +2,7 @@
 
 ### OVERVIEW
 
-The purpose of this project is to give the user the ability to black jack against a programmed dealer. The dealer creates a new standard deck of cards with 52 cards. The dealer deals to the player and themselves. The player then has the ability to hit (add a card) or to stay (pass the turn to the dealer). It is assumed that the player knows the goal is to get as close to 21 as possible without busting (going over 21). The player's turn is first with the dealers turn following. If the dealer's total is under 17 the dealer must hit.
+The purpose of this project is to give the user the ability to play black jack against a programmed dealer. The dealer creates a new standard deck of cards with 52 cards. The dealer deals to the player and themselves. The player then has the ability to hit (add a card) or to stay (pass the turn to the dealer). It is assumed that the player knows the goal is to get as close to 21 as possible without busting (going over 21). The player's turn is first with the dealers turn following. If the dealer's total is under 17 the dealer must hit.
 
 Things to know:
 - Ace cards are always worth 11
