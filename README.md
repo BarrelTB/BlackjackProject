@@ -30,6 +30,7 @@ Things to know:
 
 #### Step 4:
 - In the fourth step the dealer will play:
+(The dealer has over 17 so they will do nothing for their turn).
 
 <img width="526" alt="Screen Shot 2019-12-08 at 4 32 51 PM" src="https://user-images.githubusercontent.com/56698364/70398427-88625f00-19d8-11ea-8b3c-3f6c3b14f9a5.png">
 
